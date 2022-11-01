@@ -8,22 +8,45 @@
     <title>Document</title>
 </head>
 <body>
-    <main id="main1"><h1>PROJECT MANAGER</h1></main>
+    <main id="main">
 
     <div class="div" id="div1"><h2>Add New Task </h2>
-    <div class="small" ><p>New Task</p></div>
-    <div class="small" ><p>Description</p></div>
-    <div class="small" ><p>Dua Date</p></div>
-    <div class="small" ><p>Finish In</p></div>
-    <div class="small" ><p>Status</p></div>
+    <article >
 
+        <article class="article" id="newTask" >New Task</article>
+        <article class="article" id="desc">Description</article>
+        <article class="article" id="dueDate">Due Date
+            <input type="date" id="lastDay" name="lastDay"
 
+                min="2021-01-01" max="2023-12-31">
+        </article>
+        <article class="article" id="finishIn">Finish in..</article>
+        <article class="article" id="status">Status<br>
+            <input type="checkbox" id="todo" name="todo" checked>
+            <label for="todo">to do</label><br>
+            <input type="checkbox" id="doing" name="doing">
+            <label for="doing">doing</label><br>
+            <input type="checkbox" id="done" name="done">
+            <label for="done">done</label>
+        </article>
+        <article class="article" id="status">Please click to add!
+         <button onclick="addTask()">Add</button></article>
+        </article>
 
 
     </div>
-    <div class="div" id="div2"><h2>Filter Your Task By</h2></div>
-    <div class="div" id="div3"><h2>Show All Your Tasks</h2></div>
+    <div class="div" id="div2"><h2>Filter Your Task By </h2>
+        <article class="article">x</article>
+        <article class="article">x</article>
 
+
+    </div>
+    <div class="div" id="div3"><h2>Show All Your Tasks</h2>
+        <article class="article">x</article>
+        <article class="article">x</article>
+
+    </div>
+</main>
     <script src="script.js"></script>
 </body>
 </html>

@@ -1,5 +1,36 @@
 body{
     font-size: 16px;
+
+}
+
+#main{
+    display:flex;
+    width:100%;
+    max-width:900px;
+    height: 100%;
+    border:2px solid black;
+    margin: 0 auto;
+    padding:10px;
+}
+
+.div {
+    border:2px solid green;
+    width:49%;
+    /* float:left; */
+    height:100%;
+    margin-right:2%;
+}
+
+
+.article {
+
+    border:2px solid rgb(194, 60, 29);
+    width:95%;
+    height:100%;
+    margin-bottom:5%;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 
 h1{
@@ -15,16 +46,9 @@ p{
     line-height: 1,25;
     margin-bottom: 0.5em;
 }
-.div{
-    padding:5px;
-    margin:5px;
-    display:inline-flex;
-    justify-content: center;
-    width: 200px;
-    height:470px;
-    background: #fcfaf2;
+
+input,
+label {
+    margin: .4rem 0;
 }
 
-.small {
-    display:inline-block;
-}

@@ -1,0 +1,30 @@
+body{
+    font-size: 16px;
+}
+
+h1{
+    font-size: 2rem;
+}
+
+h2{
+    font-size: 1.2rem;
+}
+
+p{
+    font-size: 1rem;
+    line-height: 1,25;
+    margin-bottom: 0.5em;
+}
+.div{
+    padding:5px;
+    margin:5px;
+    display:inline-flex;
+    justify-content: center;
+    width: 200px;
+    height:470px;
+    background: #fcfaf2;
+}
+
+.small {
+    display:inline-block;
+}

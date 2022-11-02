@@ -12,42 +12,43 @@
     <div class="div" id="div1"><h2>Add New Task </h2>
 
 <!-- 1  -->
-        <section class="section" id="newTask" >New Task
+        <section class="section" id="newTask" >New Task :
             <input type="text" id="add_task" name="add_task"><br>
             <button onclick=" add_task()" >Add</button>
+            <p id= "task1"></p>
         </section>
 <!-- 2  -->
-        <section class="section" id="desc">Description
+        <section class="section" id="desc">Description :
             <input type="text" id="desc_task" name="desc_task"><br>
             <button onclick=" desc_task()" >Add</button>
+            <p id= "desc1"></p>
         </section>
 <!-- 3  -->
-    <section class="section" id="duaDate"> Due Date<br>
+
+    <section class="section" id="duaDate"> Due Date : <br>
         <input type="date" id="start_date">
         <input type="date" id="end_date" onchange="getDays()">
-        <input type="text" id="days"><br>
+        <p id="days">number of days remaining : </p>
     </section>
 
 <!-- 4 -->
-        <section class="section" id="status">Status<br>
-            <input type="checkbox" id="todo" name="do" value= "to do" checked>
-            <label for="todo">to do</label><br>
-            <input type="checkbox" id="doing" name="do" value= "doing">
-            <label for="doing">doing</label><br>
-            <input type="checkbox" id="done" name="do" value= "done">
-            <label for="done">done</label>
-            <button id= "button">Add</button>
+        <section class="section" id="status">Status : <br>
+            <td> todo: <input type= "checkbox" id= "todo" class= "lg" value= "To Do"> </td>
+            <td> doing: <input type= "checkbox" id= "doing" class="lg" value= "Doing"> </td>
+            <td> done: <input type= "checkbox" id= "done" class= "lg" value= "Done"> </td>
+            <button onclick= "getCheckboxValue()">Submit</button> <br>
+            <p id= "result"></p>
         </section>
 <!-- 5 -->
-        <section class="section" id="status">Please click to add!
-            <button onclick="addToDoButton()">Add</button></section>
+        <section class="section" id="addAll">Please click to add!
+        <button id="buttonAll"> Add </button>
         </section>
 <!-- 6 -->
 
-        <section class="section" id="finishIn">Finish in..</section>
-
 
     </div>
+
+
     <div class="div" id="div2"><h2>Filter Your Task By </h2>
         <section class="section">x</section>
         <section class="section">x</section>

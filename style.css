@@ -6,31 +6,33 @@ body{
 #main{
     display:flex;
     width:100%;
-    max-width:900px;
+    max-width:1100px;
     height: 100%;
     border:2px solid black;
     margin: 0 auto;
-    padding:10px;
+    padding:20px;
 }
 
 .div {
     border:2px solid green;
-    width:49%;
-    /* float:left; */
+    width:55%;
+    float:left;
     height:100%;
     margin-right:2%;
+    align-items:stretch;
 }
 
 
-.article {
-
-    border:2px solid rgb(194, 60, 29);
-    width:95%;
+.section {
+    /* display:flex; */
+    border: 2px solid rgb(194, 60, 29);
+    width:90%;
     height:100%;
     margin-bottom:5%;
     margin-left: auto;
     margin-right: auto;
-
+    align-items: center;
+    padding: 5px;
 }
 
 h1{
@@ -47,8 +49,4 @@ p{
     margin-bottom: 0.5em;
 }
 
-input,
-label {
-    margin: .4rem 0;
-}
 
